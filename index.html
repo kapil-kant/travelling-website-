@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">Jane Doe</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact" class="cta-button">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm Jane Doe.</h1>
+                    <p class="subtitle">A passionate Full-Stack Developer specializing in crafting beautiful and functional web experiences.</p>
+                    <p class="bio">I transform ideas into reality, focusing on clean code, modern design, and user-centric solutions. Let's build something amazing together.</p>
+                    <a href="#portfolio" class="btn primary-btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for a professional photo -->
+                    <div class="avatar-placeholder">JD</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I have 5 years of experience in the tech industry, with a keen interest in the intersection of design and engineering. My journey began with a fascination for how websites work, evolving into a comprehensive skill set covering front-end aesthetics and back-end logic.</p>
+                        <p>I thrive in environments where innovation is encouraged. I believe that the best software is not just functional, but delightful to use. Whether it's optimizing database queries or perfecting CSS animations, I bring dedication and precision to every project.</p>
+                    </div>
+                    <div class="about-details">
+                        <h3>My Philosophy</h3>
+                        <ul>
+                            <li>Clean Code First</li>
+                            <li>User Experience Driven</li>
+                            <li>Continuous Learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="portfolio-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="https://via.placeholder.com/600x400?text=Project+One" alt="Project One: E-commerce Platform">
+                        </figure>
+                        <div class="card-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>A robust full-stack application built with React and Node.js, featuring secure payment gateways and inventory management.</p>
+                            <div class="tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <a href="#" class="btn secondary-btn">View Case Study</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="https://via.placeholder.com/600x400?text=Project+Two" alt="Project Two: Data Visualization Dashboard">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Data Dashboard</h3>
+                            <p>Interactive dashboard designed to visualize complex datasets, built using D3.js and Vue.js for optimal performance.</p>
+                            <div class="tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">D3.js</span>
+                                <span class="tag">API</span>
+                            </div>
+                            <a href="#" class="btn secondary-btn">View Case Study</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <figure>
+                            <img src="https://via.placeholder.com/600x400?text=Project+Three" alt="Project Three: Mobile App Concept">
+                        </figure>
+                        <div class="card-content">
+                            <h3>Mobile App Concept</h3>
+                            <p>A conceptual mobile application prototype focused on community engagement, styled with modern UI/UX principles.</p>
+                            <div class="tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                            <a href="#" class="btn secondary-btn">View Live Demo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <h2 class="section-title">My Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="icon">💻</i>
+                        <h3>Front-End Development</h3>
+                        <p>HTML5, CSS3 (SASS/Tailwind), JavaScript (ES6+), React, Vue.js</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="icon">⚙️</i>
+                        <h3>Back-End Development</h3>
+                        <p>Node.js, Express, Python, REST APIs, Authentication</p>
+                    </div>
+                    <div class="skill-item">
+                        <i class="icon">💾</i>
+                        <h3>Databases & DevOps</h3>
+                        <p>MongoDB, PostgreSQL, MySQL, Git, Docker, Cloud Services (AWS/Azure)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 Jane Doe. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
