@@ -1,0 +1,48 @@
+.loading-spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed for centering */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.spinner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.spinner-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #007bff; /* Primary color */
+  border-radius: 50%;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.dot-1 {
+  animation-delay: -0.32s;
+}
+
+.dot-2 {
+  animation-delay: -0.16s;
+}
+
+.dot-3 {
+  /* No explicit delay needed, starts first */
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1); 
+  }
+}
